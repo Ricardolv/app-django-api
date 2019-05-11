@@ -14,22 +14,23 @@ class PontoTuristicoViewSet(ModelViewSet):
         return PontoTuristico.objects.filter(aprovado=True)
 
     def list(self, request, *args, **kwargs):
-        return Response({'test': 123})
+        return super(PontoTuristicoViewSet, self).list(request, *args, **kwargs)
 
     def create(self, request, *args, **kwargs):
-        return Response({'test': request.data['nome']})
+        # return Response({'test': request.data['nome']})
+        return super(PontoTuristicoViewSet, self).create(request, *args, **kwargs)
 
     def destroy(self, request, *args, **kwargs):
-        pass
+        return super(PontoTuristicoViewSet, self).destroy(request, *args, **kwargs)
 
     def retrieve(self, request, *args, **kwargs):
-        pass
+        return super(PontoTuristicoViewSet, self).retrieve(request, *args, **kwargs)
 
     def update(self, request, *args, **kwargs):
-        pass
+        return super(PontoTuristicoViewSet, self).update(request, *args, **kwargs)
 
     def partial_update(self, request, *args, **kwargs):     # VERB -> PATH
-        pass
+        return super(PontoTuristicoViewSet, self).partial_update(request, *args, **kwargs)
 
     @action(methods=['post', 'get'], detail=True)
     def denunciar(self, request, pk=None):
