@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ba7d8d-2cd2-4c6a-96e6-17ef8208b499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/enderecos/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enderecos/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enderecos/api/viewsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pt_project/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pt_project/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliacoes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/avaliacoes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/enderecos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/0002_auto_20190511_0050.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0002_auto_20190511_0050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/0003_pontoturistico_atracoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0003_pontoturistico_atracoes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/0004_pontoturistico_comentarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0004_pontoturistico_comentarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/0005_pontoturistico_avaliacoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0005_pontoturistico_avaliacoes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/0006_pontoturistico_endereco.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0006_pontoturistico_endereco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pt_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pt_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pt_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pt_project/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,22 +32,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enderecos/models.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pt_project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pt_project/core/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/api/viewsets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="120">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/api/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,19 +88,23 @@
         <option value="$PROJECT_DIR$/atracoes/admin.py" />
         <option value="$PROJECT_DIR$/comentarios/admin.py" />
         <option value="$PROJECT_DIR$/comentarios/models.py" />
-        <option value="$PROJECT_DIR$/avaliacoes/admin.py" />
         <option value="$PROJECT_DIR$/avaliacoes/models.py" />
-        <option value="$PROJECT_DIR$/pt_project/settings.py" />
         <option value="$PROJECT_DIR$/enderecos/admin.py" />
         <option value="$PROJECT_DIR$/enderecos/models.py" />
         <option value="$PROJECT_DIR$/pt_project/core/models.py" />
+        <option value="$PROJECT_DIR$/pt_project/settings.py" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/avaliacoes/admin.py" />
+        <option value="$PROJECT_DIR$/core/api/serializers.py" />
+        <option value="$PROJECT_DIR$/core/api/viewsets.py" />
+        <option value="$PROJECT_DIR$/pt_project/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1457" />
+    <option name="x" value="1254" />
     <option name="y" value="23" />
-    <option name="width" value="1103" />
+    <option name="width" value="1306" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -94,24 +125,18 @@
             <path>
               <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
-              <item name="enderecos" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
-              <item name="enderecos" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
               <item name="pt_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
-              <item name="pt_project" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,9 +149,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/enderecos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pt_project" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/enderecos" />
       <recent name="$PROJECT_DIR$/avaliacoes" />
@@ -147,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.migrate">
+  <component name="RunManager" selected="Python.runserver">
     <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
       <module name="pontos_turisticos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,11 +261,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1457" y="23" width="1103" height="1057" extended-state="0" />
+    <frame x="1254" y="23" width="1306" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21349353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15252918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -261,40 +291,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/apps.py">
+    <entry file="file://$PROJECT_DIR$/core/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/admin.py">
+    <entry file="file://$PROJECT_DIR$/core/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/__init__.py">
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/api/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/api/serializers.py">
+    <entry file="file://$PROJECT_DIR$/core/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/atracoes/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atracoes/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atracoes/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -320,16 +334,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avaliacoes/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avaliacoes/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comentarios/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -358,13 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/enderecos/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -385,13 +382,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pt_project/core/models.py">
+    <entry file="file://$PROJECT_DIR$/pt_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="120">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atracoes/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avaliacoes/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/api/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pt_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
