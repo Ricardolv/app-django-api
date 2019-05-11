@@ -1,3 +1,4 @@
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from core.models import PontoTuristico
@@ -30,3 +31,10 @@ class PontoTuristicoViewSet(ModelViewSet):
     def partial_update(self, request, *args, **kwargs):     # VERB -> PATH
         pass
 
+    @action(methods=['post', 'get'], detail=True)
+    def denunciar(self, request, pk=None):
+        pass
+
+    @action(methods=['post', 'get'], detail=False)
+    def test(self, request):
+        pass
