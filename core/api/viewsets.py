@@ -14,3 +14,6 @@ class PontoTuristicoViewSet(ModelViewSet):
 
     def list(self, request, *args, **kwargs):
         return Response({'test': 123})
+
+    def create(self, request, *args, **kwargs):
+        return Response({'test': request.data['nome']})
